@@ -11,9 +11,82 @@ html {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color:rgb(163, 114, 208);
 
   /* Flex directives */
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 35rem;
+  height: 23rem ;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+background-color: rgb(255, 255, 255);
+}
+
+.vegas-pic{
+  width: 300px;
+  border-radius: 1rem;
+  border-top-right-radius: 0rem;
+  border-bottom-right-radius: 0rem;
+
+} 
+
+.body1 {
+  padding: 1rem;
+}
+
+h1{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.main1{
+  font-size: 0.8rem;
+  margin-bottom: 1.5rem;
+  color: rgb(84, 78, 78);
+}
+
+.price{
+  font-size: 2.5rem;
+  color: rgb(0, 0, 0);
+}
+
+
+.rate {
+  font-size: 0.8rem;
+  color: rgb(0, 0, 0);
+  margin-bottom: 0.7rem;
+}
+
+.note {
+  font-size: 0.7rem;
+  color: rgb(84, 78, 78);
+  margin-right: 5rem;
+}
+
+.btn {
+  background-color: rgb(146, 3, 159);
+  color: rgb(255, 255, 255);
+  border-radius: 0.5rem;
+  padding: 1.3rem 0.5rem 1.3rem 0.5rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+position: relative;
+  left: 66%;
+ bottom: 28%;
+}
+
+.btn:hover {
+  background-color: rgb(70, 0, 71);
+  color: rgb(255, 255, 255);
+  transition: background-color 0.2s ease;
+}
+
