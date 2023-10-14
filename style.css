@@ -23,8 +23,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 35rem;
-  height: 23rem ;
+  width: 40rem;
+  height: 18rem ;
   border-radius: 1rem;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
 background-color: rgb(255, 255, 255);
@@ -76,12 +76,12 @@ h1{
   background-color: rgb(146, 3, 159);
   color: rgb(255, 255, 255);
   border-radius: 0.5rem;
-  padding: 1.3rem 0.5rem 1.3rem 0.5rem;
+  padding: 1.3rem 0.8rem 1.3rem 0.8rem;
   font-size: 1.2rem;
   text-decoration: none;
 position: relative;
   left: 66%;
- bottom: 28%;
+ bottom: 30%;
 }
 
 .btn:hover {
